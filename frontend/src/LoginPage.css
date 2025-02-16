@@ -1,0 +1,62 @@
+/* Ensure full viewport height for centering */
+html, body {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+  }
+  
+  .login-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .login-form {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    width: 320px;
+    text-align: center;
+  }
+  
+  .input-field {
+    display: block;           /* Makes the input a block element */
+    width: 100%;               /* Set to 80% (or a fixed pixel value, e.g., 250px) of the container */
+    padding: 0.8rem;
+    margin: 0 auto 1rem;      /* '0 auto' centers horizontally, '1rem' adds bottom spacing */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  
+  .button {
+    width: 90%;
+    padding: 0.8rem;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    background-color: #0056b3;
+  }
+  
+  .helper-link {
+    margin-top: 1rem;
+    font-size: 0.9rem;
+  }
+  
+  .helper-link a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .helper-link a:hover {
+    text-decoration: underline;
+  }
+  
