@@ -1,5 +1,5 @@
 # Use Node.js LTS image for production
-FROM node:16-slim
+FROM node:23-alpine3.20
 
 # Set working directory
 WORKDIR /usr/src/app
