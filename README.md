@@ -1,4 +1,4 @@
-Installation for full setup run
+Installation for full setup
 ```
 docker compose up --build -d
 ```
